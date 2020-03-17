@@ -1,3 +1,3 @@
 #!/bin/bash
-for game in *.nfg; do gambit-lcp -q $game > "${game%.*}.out"; done
+for game in *.nfg; do gambit-lp -q  $game > "${game%.*}.out"; done
 
